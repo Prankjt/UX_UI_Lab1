@@ -1,0 +1,74 @@
+
+
+body {
+    font-family: 'Indie Flower', cursive;
+
+}
+
+.topnav {
+    display: flex;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.headsite {
+    /* background-color: #000000; */
+    background-image: url(http://www.inspiringinterns.com/blog/wp-content/uploads/2016/10/luggage-1149289_1280-1200x800.jpg); 
+    background-position: 100% 100%;
+    background-repeat: repeat;
+    background-size: contain;
+    height: 100px;
+    text-align: center;
+}
+
+.column {
+    border: 1px solid blue;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+  
+
+.imgcontainer {
+    width: 100%;
+    height: 120px;
+}
+
+/* resize images */
+.imgcontainer img {
+    width: 100%;
+    height: auto;
+}
+
+.id {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 5px;
+    width: 150px;
+    max-width: 100%;
+}
+
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+ 
+
+
+
+@media only screen and (min-width: 480px) {
+    
+    .row {
+        display: flex;
+      }/* Create two equal columns that sits next to each other */
+    .column {
+    flex: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+
+}
